@@ -1,0 +1,29 @@
+ 
+    0 = Black      
+    1 = Blue        
+    2 = Green       A = Light Green
+    3 = Aqua        B = Light Aqua
+    4 = Red         C = Light Red
+    5 = Purple      D = Light Purple
+    6 = Yellow      E = Light Yellow
+    7 = White       F = Bright White
+    8 = Gray
+    9 = Light Blue
+
+cd = change directory (change folder)
+cd .. = go to previous dir
+color 0a = green color
+dir = show directories in opened directory
+dir *(file extention) = show files with that extention
+dir /a = show all files including hidden
+ctrl + c = stop task
+mkdir (name) = make new directories 
+rmdir (name) = delete folder
+rmdir /s (name) = delete a directory which has files in it with files
+echo > (filename+extention) = create a new file  (file has written echo is on inside it )
+del (filename+extention) = delete file
+type null >(filename+extention) = make a new empty file
+type (filename+extention) = print file content
+move (fieename+extention) (full path) = move file to a perticular directory
+logicaldisk get name
+go to root drive > type wanted drive name+: = go to other drive

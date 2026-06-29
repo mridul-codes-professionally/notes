@@ -5,16 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>notes for html 5</title>
     <link rel="stylesheet" href="test.css">
-    <link rel="icon" type="image/jpg" href="examplwpic.jpg">
+    <link rel="icon" type="image/png" href="ing/image.png">
 </head>
 <body>
-
-
-    <audio control autoplay muted loop>
-    <source src="example.mp3" type="mp3">
-
-    <source src="example.wav" type="wav">(!--alternate source--)
-    </audio>
+    <audio controls autoplay muted loop>
+    <source src="audio/ElevenLabs_Generation_1.ogg" type="audio/ogg">
+        </audio>
     <p>Lorem ipsum dolor normal sit amet consectetur adipisicing elit. </p>
     <p>Lorem ipsum dolor <b>bold</b>sit amet consectetur adipisicing elit. </p>
     <p>Lorem ipsum dolor <i>italic</i>sit amet consectetur adipisicing elit. </p>
@@ -29,8 +25,8 @@
 
 
     <!--.span and div--><!--span takes just line and div takes whole -->
-<p><span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus perferendis blanditiis, natus dolorum iusto at consequatur, voluptatem ducimus explicabo ab libero ad ea consequuntur quo quaerat. Accusantium, necessitatibus cum.</p></span>
-<p><div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus perferendis blanditiis, natus dolorum iusto at consequatur, voluptatem ducimus explicabo ab libero ad ea consequuntur quo quaerat. Accusantium, necessitatibus cum.</p></div>
+<p><span  style="background-color: aqua; ">(its in span tag)Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus perferendis blanditiis, natus dolorum iusto at consequatur, voluptatem ducimus explicabo ab libero ad ea consequuntur quo quaerat. Accusantium, necessitatibus cum.</p></span>
+<p><div  style="background-color: tomato; ">(its in div tag)Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non doloribus perferendis blanditiis, natus dolorum iusto at consequatur, voluptatem ducimus explicabo ab libero ad ea consequuntur quo quaerat. Accusantium, necessitatibus cum.</p></div>
 
 
 <h4>unordered list </h4>  <!--order does'nt matter-->
@@ -65,20 +61,25 @@
 <dd>it has 4 legs and 1 tail</dd>
 </dl>
 <lable >table ---↘</lable>
-<table style="border:3px dotted"><!--tr=table row,th=table header ,td=table data-->
+<table border="5"><!--tr=table row,th=table header ,td=table data-->
 <tr>
-<th>feature</th>
-<th>cow </th>
-<th>dog</th>
-<th>sheep</th>
+<th width="100">feature</th>
+<th width="100">cow </th>
+<th width="100">dog</th>
+<th width="100">sheep</th>
 </tr>
-<tr>
+<tr align="center">
     <td>legs</td>
     <td>has 4</td>
     <td>has 4</td>
     <td>has 4</td>
-
+    
 </tr>
 </table>
+<button onclick="document.getElementById('h111').textContent='clicked';">
+    Click Me
+</button>
+
+<h1 id="h111">not clicked</h1>
 </body>
 </html>

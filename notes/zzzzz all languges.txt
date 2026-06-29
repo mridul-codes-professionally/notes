@@ -1,0 +1,11 @@
+html
+css
+javascript
+structured query language (sql)
+java
+c#(s sharp)
+c++
+django
+<hacking>
+cmd
+powershell
